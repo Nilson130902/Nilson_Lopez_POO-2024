@@ -1,12 +1,6 @@
 def convertir_a_celsius(fahrenheit):
   """
   Convierte una temperatura de Fahrenheit a Celsius.
-
-  Args:
-    fahrenheit: Valor de temperatura en Fahrenheit (float).
-
-  Returns:
-    Valor de temperatura equivalente en Celsius (float).
   """
   celsius = (fahrenheit - 32) * 5 / 9
   return celsius
